@@ -17,15 +17,15 @@ let sum = 0;
   assignment.sumOfNumbers = sumOfNumbers;
 
 function countEvenNumbers(arrayOfNumbers) {
-let count = 0;
+let countOfNumbers = 0;
   for (let i = 0; i < arrayOfNumbers.length; i ++){
     if (
       arrayOfNumbers[i] % 2 == 0
     ) {
-      count++;
+      countOfNumbers++;
     }
   }
-    return count
+    return countOfNumbers
 } 
 assignment.countEvenNumbers = countEvenNumbers;
 
